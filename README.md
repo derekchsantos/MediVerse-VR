@@ -1,9 +1,5 @@
 # MediVerse: Sala de Emergência Virtual 🏥💙
 
-![Unity](https://shields.io)
-![Meta](https://shields.io)
-![License](https://shields.io)
-
 Um ambiente de **Realidade Virtual (VR)** desenvolvido no Unity para treinamento médico e educação em saúde. Este projeto foi concebido como parte da **Residência em TIC 29 — Desenvolvimento de Metaverso**.
 
 ---
