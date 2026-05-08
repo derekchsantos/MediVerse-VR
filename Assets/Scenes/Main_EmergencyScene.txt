@@ -1,0 +1,37 @@
+Esta pasta conterá o arquivo 'EmergencyRoom.unity' após a instalação do Unity e criação do projeto.
+
+PLANEJAMENTO DA CENA - EmergencyRoom.unity
+==========================================
+
+Objetos da Cena (Hierarquia):
+├── [MANAGEMENT]
+│   ├── EventSystem
+│   └── XR Interaction Manager
+├── [PLAYER]
+│   └── XR Origin (Camera Offset)
+│       ├── Main Camera
+│       ├── Left Hand Controller
+│       └── Right Hand Controller
+├── [ENVIRONMENT]
+│   ├── Floor (Plane) - Chão da sala hospitalar
+│   ├── Directional Light - Iluminação clínica
+│   ├── Ceiling - Teto branco
+│   └── Walls (4 paredes)
+└── [INTERACTABLES]
+    ├── MonitorCardiaco (Cube + Screen)
+    ├── CamaHospital (Primitivos combinados)
+    ├── ArmarioMedicamentos (Cubo com porta)
+    ├── BotaoEmergencia (Cilindro)
+    └── PortaAutomatica (Plano)
+
+Configurações de Interação:
+- MonitorCardiaco: Script MonitorCardiaco.cs + XR Select Interactable
+- Cor normal: Azul (0, 0.44, 1)
+- Cor ativa: Verde (0, 1, 0)
+- Feedback: Som de heartbeat + mudança de cor
+
+Dimensões da Sala: 10m x 8m x 3m (largura x profundidade x altura)
+Iluminação: 6500K (clínica branca)
+Skybox: Padrão Unity (céu neutro)
+
+Referência: Relatório Técnico - Seção 5 (Hierarquia de Game Objects)

@@ -1,0 +1,38 @@
+Este arquivo substitui as configurações de ProjectSettings do Unity.
+
+CONFIGURAÇÕES DE PROJETO - Unity + Meta XR SDK
+==============================================
+
+Versão do Unity: 6000.3.9f1 LTS (Long Term Support)
+
+Meta XR SDK Installation:
+1. Window > Package Manager
+2. Add package by name: "com.meta.xr.sdk.all-in-one"
+3. Install Meta XR All-in-One SDK
+
+XR Plug-in Management:
+1. Edit > Project Settings > XR Plug-in Management
+2. Enable: OpenXR
+3. Android: Enable Meta XR Interaction
+
+Build Settings para Android/Meta Quest:
+1. File > Build Settings > Switch Platform: Android
+2. Player Settings:
+   - Company Name: [SEU NOME]
+   - Product Name: MediVerse
+   - Minimum API Level: Android 10 (API 29)
+   - Target Architecture: ARM64
+   - Texture Compression: ASTC
+   - Auto Graphics API: Desmarcar
+   - Manual Graphics API: OpenGLES3, Vulkan
+
+XR Interaction Setup:
+1. Create > XR > XR Origin (VR)
+2. Add XR Interaction Manager to scene
+3. Configure Input Actions (XR Interaction Toolkit)
+
+Movimentação no Editor:
+- Window > XR > XR Device Simulator
+- Emular controles via teclado/mouse para testes
+
+Referência: Relatório Técnico - Seção 3 (Configuração Técnica)

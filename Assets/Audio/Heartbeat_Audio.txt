@@ -1,0 +1,24 @@
+Este arquivo substitui 'HeartbeatSound.mp3' - Áudio do Batimento Cardíaco.
+
+CONFIGURAÇÕES DO ÁUDIO
+======================
+
+Nome: HeartbeatSound
+Tipo: AudioClip (Mono/Stereo)
+Formato: MP3 ou WAV
+Duração: ~1 segundo (loop de batimento único)
+
+Uso:
+- Vinculado ao AudioSource do GameObject 'MonitorCardiaco'
+- Reproduzido via script MonitorCardiaco.cs (método ToggleMonitor())
+- PlayOneShot() quando monitor é ativado
+
+Recursos Gratuitos Sugeridos:
+- Unity Asset Store: "Medical Sound Pack"
+- Freesound.org: Buscar "heart beat medical"
+- Mixkit.co: Efeitos sonoros médicos gratuitos
+
+Nota: O arquivo de áudio será importado manualmente no Unity Editor através de:
+1. Baixar efeito sonoro de fonte gratuita
+2. Arrastar para pasta Assets/Audio/
+3. Configurar no Inspector do MonitorCardiaco

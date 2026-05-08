@@ -1,0 +1,27 @@
+Este arquivo substitui 'MonitorScreen.mat' - Material do Monitor Cardíaco.
+
+CONFIGURAÇÕES DO MATERIAL
+=========================
+
+Nome: MonitorScreen
+Shader: Standard (Universal Render Pipeline)
+
+Propriedades:
+- Albedo Color: Azul (R:0, G:0.44, B:1, A:1) - Estado INATIVO
+- Metallic: 0
+- Smoothness: 0.5
+- Emission: Desativado
+
+Estado ATIVO (via script):
+- Albedo Color: Verde (R:0, G:1, B:0, A:1)
+
+Uso:
+- Aplicado ao Renderer do GameObject 'MonitorCardiaco'
+- Alterna cor via script MonitorCardiaco.cs (método ToggleMonitor())
+
+Nota: O material será criado manualmente no Unity Editor através de:
+1. Assets > Create > Material
+2. Nome: MonitorScreen
+3. Shader: Universal Render Pipeline > Standard
+4. Albedo: Definir cor azul
+5. Salvar em Assets/Materials/
